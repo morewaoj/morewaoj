@@ -1,31 +1,20 @@
-Hi, I'm Oluwamorewa Omolabi
+I’m a Computer Science graduate from Georgia State University with a strong focus on building scalable systems, AI-driven products, and enterprise-ready solutions.
 
-🎓 Senior Computer Science Student at Georgia State University
-🌐 Aspiring Cloud & DevOps Engineer | Passionate about CI/CD, Cloud Infrastructure, and Automation
+My work sits at the intersection of:
 
-🛠️ Technologies & Tools
-Languages: Python, Java, SQL, C, HTML
-Cloud: Azure, Azure CLI
-DevOps: Docker, Kubernetes, Jenkins, GitLab
-Frameworks: Flask
-Other Tools: Selenium, Git
-🚀 What I’m Working On
-Building a Flask Web Application using Docker and deploying it on Azure.
-Improving my knowledge of Kubernetes and infrastructure-as-code (IaC) tools.
-Solving LeetCode problems and refining my problem-solving skills.
-📚 Experience Highlights
-💼 DevOps Engineer Intern @ Delta Technologies
+AI & Data-driven decision systems
+Cloud & DevOps engineering
+Product-focused software development
 
-Designed and maintained CI/CD pipelines using Jenkins and GitLab.
-Streamlined workflows with Docker containerization for improved scalability.
-Deployed web applications on Azure, using CLI tools for resource provisioning.
-📂 Featured Projects
-Dynamic Flask Web App
-Technologies: Python, Flask, Azure, Docker, HTML, CSS
-Deployed a responsive Flask application on Azure, leveraging Docker for seamless development-to-production transitions.
-GitHub Repository | Live Demo
-Kubernetes Cluster Demo (Coming Soon)
-Setting up and managing a Kubernetes cluster to deploy containerized applications.
-Dockerized To-Do App
-Technologies: Python, Docker
-Built a simple To-Do application, fully containerized for cross-platform deployment.
+I’ve worked on real-world systems involving deployment pipelines, cloud infrastructure, and data platforms, and I’m currently building products that combine AI + real business use cases.
+
+🎓 Education
+
+Georgia State University — B.S. Computer Science (2023 – 2025)
+Georgia Military College — A.S. Mathematics (2021 – 2022)
+
+⚙️ What I Do
+Build AI-powered applications that turn data into actionable insights
+Design scalable backend systems and APIs
+Implement CI/CD pipelines and cloud infrastructure
+Translate technical systems into business value
