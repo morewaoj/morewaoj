@@ -47,10 +47,10 @@ Live production platform helping students navigate college, career, and scholars
 
 ---
 
-### 💪 FitFindr — AI Fitness Matching Platform
-AI-powered platform matching users to gyms, trainers, and workout plans based on goals, location, and fitness preferences. Intelligent recommendation logic surfaces the most relevant options for each user profile.
+### FitFindr — Multi-Tool Thrift Shopping AI Agent
+Thrift-shopping AI agent that interprets natural-language requests, searches mock secondhand listings, chooses a matching item, suggests an outfit from the user's wardrobe, and creates a final fit card. Built around a conditional planning loop so later tools only run when earlier steps succeed. Includes Groq-powered query interpretation with deterministic fallback parsing, session state management, graceful error handling, pytest coverage, and a Gradio UI.
 
-`TypeScript` `Node.js` `AI Recommendations`
+`Python` `Groq` `Gradio` `Multi-Tool Agents` `Planning Loops` `pytest`
 
 [→ View on GitHub](https://github.com/morewaoj/fitfindr)
 
