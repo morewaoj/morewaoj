@@ -1,20 +1,81 @@
-I’m a Computer Science graduate from Georgia State University with a strong focus on building scalable systems, AI-driven products, and enterprise-ready solutions.
+# Oluwamorewa Omolabi
+### AI Engineer · Product Builder · Atlanta, GA
 
-My work sits at the intersection of:
+CS graduate from Georgia State University building AI systems that solve real problems — not demos, not tutorials. Systems that are grounded, cited, evaluated, and deployed.
 
-AI & Data-driven decision systems
-Cloud & DevOps engineering
-Product-focused software development
+[![Portfolio](https://img.shields.io/badge/Portfolio-morewa.vercel.app-c9a55a?style=flat&logo=vercel&logoColor=white)](https://morewa.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-morewao-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/morewao/)
 
-I’ve worked on real-world systems involving deployment pipelines, cloud infrastructure, and data platforms, and I’m currently building products that combine AI + real business use cases.
+---
 
-🎓 Education
+## What I Build
 
-Georgia State University — B.S. Computer Science (2023 – 2025)
-Georgia Military College — A.S. Mathematics (2021 – 2022)
+**AI & LLM Systems** — RAG pipelines, grounded generation, vector search, prompt engineering, agentic workflows
 
-⚙️ What I Do
-Build AI-powered applications that turn data into actionable insights
-Design scalable backend systems and APIs
-Implement CI/CD pipelines and cloud infrastructure
-Translate technical systems into business value
+**Product Engineering** — full-stack platforms with real users, real data, and real deployment
+
+**Data & Intelligence** — recommendation engines, hybrid matching systems, analytics pipelines
+
+---
+
+## Featured Projects
+
+### 🧠 The Unofficial Career Guide — RAG System
+Full end-to-end Retrieval-Augmented Generation pipeline built from scratch. Deliberate chunking strategy (1000 char chunks, 150 char overlap, recursive splitting) across 15 real documents producing 58 semantically coherent chunks. ChromaDB vector store with cosine similarity search. Grounded generation via Groq LLaMA 3.3 — system prompt enforces citations and refuses out-of-scope queries rather than hallucinating. Evaluated against 5 test questions with documented accuracy judgments and honest failure case.
+
+`Python` `RAG` `ChromaDB` `LangChain` `Groq LLaMA 3.3` `Gradio` `sentence-transformers`
+
+[→ View on GitHub](https://github.com/morewaoj/unofficial-career-guide)
+
+---
+
+### ♟ RS Chess Coach — Multi-System AI Coach
+Chess coaching AI combining three separate systems into one grounded response. Stockfish 18 handles position calculation — the LLM never guesses moves. A RAG pipeline over 8 chess knowledge documents retrieves opening theory, tactical patterns, and endgame technique. The LLM synthesizes both into a structured coaching response with citations and a concrete 3-5 move plan. Game memory persists across every turn via a FEN-based board state tracker. FastAPI backend with a drag-and-drop HTML frontend showing legal move highlights and a BEST move indicator.
+
+`Python` `RAG` `Stockfish 18` `FastAPI` `ChromaDB` `fastembed` `Groq LLaMA 3.3` `chess.py`
+
+[→ View on GitHub](https://github.com/morewaoj/chess-coach)
+
+---
+
+### 🎓 RS EduNav — AI Educational Guidance Platform
+Live production platform helping students navigate college, career, and scholarship decisions. Hybrid matching engine tuned on 76,000+ real resume patterns surfaces career matches, 36,000+ college profiles, and personalized scholarship recommendations from a resume upload. Real-time job market data, demand trends, and outlook by career. Built with Claude and OpenAI APIs. Live at rsedunav.com. Mobile app pending App Store review.
+
+`TypeScript` `React` `Node.js` `PostgreSQL` `Anthropic Claude` `OpenAI` `Expo` `Drizzle ORM`
+
+[→ View on GitHub](https://github.com/morewaoj/RSedunav) · [→ Live Site](https://rsedunav.com)
+
+---
+
+### 💪 FitFindr — AI Fitness Matching Platform
+AI-powered platform matching users to gyms, trainers, and workout plans based on goals, location, and fitness preferences. Intelligent recommendation logic surfaces the most relevant options for each user profile.
+
+`TypeScript` `Node.js` `AI Recommendations`
+
+[→ View on GitHub](https://github.com/morewaoj/fitfindr)
+
+---
+
+## Education
+
+**Georgia State University** — B.S. Computer Science · 3.9 GPA · 2023–2025
+
+**Georgia Military College** — A.S. Mathematics · 2021–2022
+
+---
+
+## Skills
+
+| AI & LLM | Data & Backend | Frontend & Mobile |
+|----------|---------------|-------------------|
+| RAG Pipelines | Python | React / TypeScript |
+| Vector Databases | PostgreSQL | React Native / Expo |
+| Prompt Engineering | Node.js / Express | Tailwind CSS |
+| Groq / OpenAI / Claude | Apache Spark | Gradio |
+| Agentic Workflows | FastAPI | HTML / CSS / JS |
+| ChromaDB / Pinecone | SQL (Advanced) | Vite |
+
+---
+
+*Open to AI Engineer, Solutions Engineer, and AI Integration roles.*
+*Building at the intersection of LLMs, real data, and real products.*
